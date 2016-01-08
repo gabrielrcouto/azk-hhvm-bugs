@@ -1,3 +1,5 @@
+AZK issue: https://github.com/azukiapp/azk/issues/595
+
 ## AZK + HHVM bug example
 
 I found a bug when trying to do some HTTP requests. The AZK HTTP Balancer is not working with NGINX + HHVM for some HTTP 1.1 methods (like OPTIONS, PATCH).
